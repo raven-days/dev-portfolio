@@ -240,7 +240,7 @@ section#skill h1 {
 #skill .list{
     height: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
     padding: 50px;
     box-sizing: border-box;
     gap: 0;
